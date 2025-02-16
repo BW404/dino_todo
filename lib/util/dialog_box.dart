@@ -33,6 +33,7 @@ class DialogBox extends StatelessWidget {
             // button save or cancel
             Row(children: [
               MyButton(text: "Save", onPressed: () {}),
+              Padding(padding:const EdgeInsets.only(left: 20, top: 20),),
 
               MyButton(text: "Cancel", onPressed: () {Navigator.of(context).pop();},),
             ],)
