@@ -26,6 +26,7 @@ class DialogBox extends StatelessWidget {
                 hintStyle: TextStyle(
                   color: Colors.white,
                   fontSize: 18,
+                  padding: EdgeInsets.only(bottom: 10),
                 ),
               ),
             ),          
