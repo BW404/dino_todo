@@ -26,9 +26,7 @@ class _HomePageState extends State<HomePage> {
       body: ListView(
         children: [
           ToDoTile(),
-          ToDoTile(),
-          ToDoTile(),
-          ToDoTile(),
+
         ],
       ),
     );
