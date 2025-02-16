@@ -9,7 +9,7 @@ class DialogBox extends StatelessWidget {
     return AlertDialog(
       backgroundColor: Colors.deepOrangeAccent[200],
       content: Container(
-        height:20,
+        height:200,
         child: Column(
           children: [
             const Text('Add a new task',
