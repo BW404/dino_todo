@@ -37,6 +37,13 @@ void checkBoxChanged(bool? value, int index) {
         centerTitle: true,
         backgroundColor: Colors.deepOrange,
       ),
+
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
+        backgroundColor: Colors.deepOrange,
+      ),
+
       body: ListView.builder(
         itemCount: toDoList.length,
         itemBuilder: (context, index) {
