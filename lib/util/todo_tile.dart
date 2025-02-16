@@ -5,12 +5,12 @@ class ToDoTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Padding(
       padding: const EdgeInsets.all(25.0),
-      child: Padding(
+      child: Container(
         child: Text('To Do Tile'),
+      decoration: BoxDecoration(color: Colors.orangeAccent),ß
       ),
-      decoration: BoxDecoration(color: Colors.orangeAccent),
 
     );
   }
