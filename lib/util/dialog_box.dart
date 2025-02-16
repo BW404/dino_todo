@@ -22,6 +22,7 @@ class DialogBox extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             TextField(
+            
               decoration: const InputDecoration(
                 hintText: 'Add task here',
                 hintStyle: TextStyle(
