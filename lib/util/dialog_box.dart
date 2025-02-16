@@ -28,13 +28,12 @@ class DialogBox extends StatelessWidget {
                 ),
               ),
             ),          
+            // button save or cancel
+            Row(children: [
+              
+            ],)
             ],
-          ),
-        // button save or cancel
-        Row(
-          children: [
-            // Add your buttons here
-          ],
+            
         ),
       ),
 
