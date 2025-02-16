@@ -36,9 +36,9 @@ class DialogBox extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 MyButton(text: "Save", onPressed: () {}),
-                Padding(padding:const EdgeInsets.only(left: 20, top: 20),),
 
                 MyButton(text: "Cancel", onPressed: () {Navigator.of(context).pop();},),
+                Padding(padding:const EdgeInsets.only(left: 20, top: 20),),
               ],
             )
             ],
