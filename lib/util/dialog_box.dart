@@ -33,6 +33,7 @@ class DialogBox extends StatelessWidget {
             ),          
             // button save or cancel
             Row(
+              
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 MyButton(text: "Save", onPressed: () {}),
