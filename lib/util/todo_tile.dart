@@ -12,13 +12,15 @@ class ToDoTile extends StatelessWidget {
         decoration: BoxDecoration(color: Colors.deepOrangeAccent[200],
           borderRadius: BorderRadius.circular(12),
         ),
-        child: Text('To Do Tile',
+        child: row( 
+        Text('To Do Tile',
           style: TextStyle(
             color: Colors.white,
             fontSize: 18,
             fontWeight: FontWeight.bold,
           ),
         ),
+        )
       ),
 
     );
