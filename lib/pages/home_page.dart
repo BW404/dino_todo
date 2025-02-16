@@ -1,3 +1,4 @@
+import 'package:dino_todo/util/todo_tile.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -24,7 +25,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: ListView(
         children: [
-          ToDoList().
+          ToDoTile()().
         ],
       ),
     );
