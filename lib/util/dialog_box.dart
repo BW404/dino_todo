@@ -1,3 +1,4 @@
+import 'package:dino_todo/util/my_button.dart';
 import 'package:flutter/material.dart';
 
 class DialogBox extends StatelessWidget {
@@ -30,7 +31,9 @@ class DialogBox extends StatelessWidget {
             ),          
             // button save or cancel
             Row(children: [
-              
+              MyButton(text: "Save", onPressed: () {}),
+
+              MyButton(text: "Cancel", onPressed: () {Navigator.of(context).pop();},),
             ],)
             ],
             
