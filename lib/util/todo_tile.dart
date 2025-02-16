@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 
 class ToDoTile extends StatelessWidget {
+  final String taskName;
+  final bool taskCompleted;
+  Function(bool?)? onChanged;
 
-  const ToDoTile({
+  ToDoTile({
     super.key,
-    final String taskName,
-  final bool taskCompleted,
-  Function(bool?)? onChanged, });
+    required this.taskName,
+    required this.taskCompleted,
+    required this.onChanged,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -21,10 +25,10 @@ class ToDoTile extends StatelessWidget {
         child: Row(
           children: [
             // Checkbox
-            // Checkbox(value: value, onChanged: onChanged)
+            Checkbox(value: taskCompleted, onChanged: onChanged),
             // Task name
             Text(
-              'To Do Tile',
+              taskName,
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18,
