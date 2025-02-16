@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.deepOrangeAccent[100],
       appBar: AppBar(
-        title: const Text('d I N O t O D O',
+        title: const Text('TO DO',
           style: TextStyle(
             color: Colors.white,
             fontSize: 24,
@@ -21,6 +21,11 @@ class _HomePageState extends State<HomePage> {
         ),
         centerTitle: true,
         backgroundColor: Colors.deepOrange,
+      ),
+      body: ListView(
+        children: [
+          ToDoList().
+        ],
       ),
     );
   }
