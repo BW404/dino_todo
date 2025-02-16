@@ -10,9 +10,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black87,
+      backgroundColor: Colors.deepOrangeAccent[100],
       appBar: AppBar(
-        title: const Text('D I N O T O D O',
+        title: const Text('d I N O t O D O',
           style: TextStyle(
             color: Colors.white,
             fontSize: 24,
