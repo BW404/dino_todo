@@ -23,14 +23,9 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Colors.deepOrange,
       ),
-      body: ListView(
-        children: [
-          ToDoTile(
-            taskName: "Test task name",
-            taskCompleted: true,
-            onChanged: (p0){
-            },
-          ),
+      body: ListView.builder(
+      
+        
 
         ],
       ),
