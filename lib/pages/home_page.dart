@@ -13,6 +13,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.yellow[200],
       appBar: AppBar(
         title: const Text('Dino Todo'),
+        // backgroundColor: Colors.yellow,
       ),
     );
   }
