@@ -10,6 +10,7 @@ class dinotodo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    debugInvertOversizedImages = false;
     return MaterialApp(
       title: 'Dino Todo',
       theme: ThemeData(
