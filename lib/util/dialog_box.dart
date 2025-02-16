@@ -11,6 +11,7 @@ class DialogBox extends StatelessWidget {
       content: Container(
         height:200,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text('Add a new task',
               style: TextStyle(
