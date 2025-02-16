@@ -1,6 +1,7 @@
 import 'package:dino_todo/util/todo_tile.dart';
 import 'package:flutter/material.dart';
 
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
   @override
@@ -47,7 +48,7 @@ void createNewTask(){
       ),
 
       floatingActionButton: FloatingActionButton(
-        onPressed: createNewTask,
+        onPressed: createNewTask(),
         child: const Icon(Icons.add),
         backgroundColor: Colors.deepOrange,
       ),
