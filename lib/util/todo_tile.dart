@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 class ToDoTile extends StatelessWidget {
-  final String taskName;
-  final bool taskCompleted;
-  Function(bool?)? onChanged; toggleTaskCompleted;
-  const ToDoTile({super.key});
+
+  const ToDoTile({
+    super.key,
+    final String taskName,
+  final bool taskCompleted,
+  Function(bool?)? onChanged, });
 
   @override
   Widget build(BuildContext context) {
