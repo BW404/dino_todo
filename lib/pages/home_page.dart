@@ -10,10 +10,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellow[200],
+      backgroundColor: Colors.black87,
       appBar: AppBar(
         title: const Text('Dino Todo'),
-        // backgroundColor: Colors.yellow,
+        backgroundColor: Colors.black,
       ),
     );
   }
