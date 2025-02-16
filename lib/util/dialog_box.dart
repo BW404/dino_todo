@@ -27,12 +27,10 @@ class DialogBox extends StatelessWidget {
                   fontSize: 18,
                 ),
               ),
-            ),          ],
-            const SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                ElevatedButton(
+            ),          
+            ],
+            // button save or cancel
+
         ),
       ),
 
