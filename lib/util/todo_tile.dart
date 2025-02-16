@@ -8,8 +8,17 @@ class ToDoTile extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(25.0),
       child: Container(
-        decoration: BoxDecoration(color: Colors.orangeAccent),ß,
-        child: Text('To Do Tile')
+        padding: const EdgeInsets.all(12.0),
+        decoration: BoxDecoration(color: Colors.deepOrangeAccent[200],
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Text('To Do Tile',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 18,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
       ),
 
     );
