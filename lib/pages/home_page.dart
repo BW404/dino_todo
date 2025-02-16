@@ -12,8 +12,15 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.black87,
       appBar: AppBar(
-        title: const Text('Dino Todo'),
-        backgroundColor: Colors.black,
+        title: const Text('D I N O T O D O',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.deepOrange,
       ),
     );
   }
