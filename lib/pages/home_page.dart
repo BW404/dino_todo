@@ -23,29 +23,12 @@ void checkBoxChanged(bool? value, int index) {
 }
 
 void createNewTask(){
-  showDialog(context: context, 
-  builder: (context){{
-    return AlertDialog(
-      title: const Text('Add a new task'),
-      content: TextField(
-        onChanged: (value) {
-          newTask = value;
-        },
-      ),
-      actions: [
-        TextButton(
-          onPressed: () {
-            setState(() {
-              toDoList.add([newTask, false]);
-            });
-            Navigator.of(context).pop();
-          },
-          child: const Text('Add'),
-        ),
-      ],
-    );
-  }})
-}
+  showDialog(
+    context: context, 
+    builder: (context){
+      return AlertDialog();
+    },);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +47,7 @@ void createNewTask(){
       ),
 
       floatingActionButton: FloatingActionButton(
-        onPressed: createNewTask {},
+        onPressed: createNewTask,
         child: const Icon(Icons.add),
         backgroundColor: Colors.deepOrange,
       ),
