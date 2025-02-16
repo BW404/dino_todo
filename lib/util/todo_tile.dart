@@ -19,7 +19,7 @@ class ToDoTile extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(12.0),
         decoration: BoxDecoration(
-          color: taskCompleted ? Colors.orange : Colors.deepOrangeAccent[200],
+          color: taskCompleted ? Colors.redAccent[200] : Colors.deepOrangeAccent[200],
           borderRadius: BorderRadius.circular(12),
         ),
         child: Row(
