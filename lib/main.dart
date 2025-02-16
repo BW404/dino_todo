@@ -1,5 +1,5 @@
+import 'package:dino_todo/pages/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:dinotodo/lib/pages/home_page.dart';
 
 void main() {
   runApp(const dinotodo());
@@ -15,7 +15,7 @@ class dinotodo extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
