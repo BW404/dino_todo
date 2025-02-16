@@ -1,3 +1,4 @@
+import 'package:dino_todo/util/dialog_box.dart';
 import 'package:dino_todo/util/todo_tile.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +28,7 @@ void createNewTask(){
   showDialog(
     context: context, 
     builder: (context){
-      return AlertDialog();
+      return DialogBox();
     },);
   }
 
@@ -48,7 +49,7 @@ void createNewTask(){
       ),
 
       floatingActionButton: FloatingActionButton(
-        onPressed: createNewTask(),
+        onPressed: createNewTask,
         child: const Icon(Icons.add),
         backgroundColor: Colors.deepOrange,
       ),
