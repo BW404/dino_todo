@@ -19,7 +19,7 @@ class DialogBox extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: ),
             TextField(
               decoration: const InputDecoration(
                 hintText: 'Add task here',
