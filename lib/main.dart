@@ -14,7 +14,8 @@ class dinotodo extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Dino Todo',
       theme: ThemeData(
-        primaryColor: Colors.black,
+        primaryColor: Colors.red,
+        colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.orange),
       ),
       home: HomePage(),
     );
